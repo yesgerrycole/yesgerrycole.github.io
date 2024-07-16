@@ -1,0 +1,125 @@
+/* Global styles */
+
+:root {
+    --main-bg-color: #FFFBF3;
+    --secondary-bg-color: #F7FBFC;
+    --primary-color: #FFA800;
+    --hover-color: #F38BA0;
+    --font-color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+/* Base Styles */
+body {
+    font-family: Inter;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.hero {
+    padding: 2rem 1rem;
+}
+
+.hero h1 {
+    margin: 0.5rem 0;
+    font-weight: bold;
+}
+
+.hero p {
+    margin: 1rem 0;
+}
+
+.hero button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background: #ff5733;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+main {
+    padding: 1rem;
+}
+
+section {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+section h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section h2 img {
+    margin-right: 0.5rem;
+}
+
+section h3 {
+    margin: 1rem 0;
+    color: #333;
+}
+
+section p,
+section ul {
+    margin: 1rem 0;
+    text-align: left;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section ul li {
+    margin: 0.5rem 0;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    margin: 1rem 0;
+}
+
+section button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background: #ff5733;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    section p,
+    section ul {
+        text-align: center;
+    }
+}
